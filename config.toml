@@ -1,0 +1,3 @@
+redis_host = ":6379"
+redis_password = ""
+redis_database = 0
