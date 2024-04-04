@@ -4,7 +4,6 @@ go 1.22.1
 
 require (
 	github.com/magefile/mage v1.15.0
-	github.com/pelletier/go-toml/v2 v2.2.0
 	github.com/redis/go-redis/v9 v9.5.1
 )
 
