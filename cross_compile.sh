@@ -2,10 +2,10 @@
 archs=(amd64 arm64)
 oss=(linux darwin)
 
-for arch in ${archs[@]}
+for arch in "${archs[@]}"
 do
-  for os in ${oss[@]}
+  for os in "${oss[@]}"
   do
-    env GOOS=${os} GOARCH=${arch} go build -o ./bin/service-${os}-${arch}
+    env GOOS="${os}" GOARCH="${arch}" go build -o ./bin/service-"${os}"-"${arch}"
   done
 done
