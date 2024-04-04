@@ -6,6 +6,6 @@ for arch in "${archs[@]}"
 do
   for os in "${oss[@]}"
   do
-    env GOOS="${os}" GOARCH="${arch}" go build -o ./bin/service-"${os}"-"${arch}"
+    env GOOS="${os}" GOARCH="${arch}" go build -o ./dist/log-redis-"${os}"-"${arch}"
   done
 done
